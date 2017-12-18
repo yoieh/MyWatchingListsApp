@@ -8,7 +8,8 @@ import {
 
 import {
   registerScreens
-} from './screens';
+} from "./screens";
+
 import store from './redux/store';
 
 const storeConfig = store()
@@ -18,6 +19,14 @@ Navigation.startSingleScreenApp({
   screen: {
     screen: 'watchingLists.MainScreen',
     label: 'Main',
-    title: 'Main'
+    title: 'Main',
+    leftButtons: [{
+      id: 'sideMenu'
+    }]
+  },
+  drawer: {
+    left: {
+      screen: 'watchingLists.Drawer'
+    }
   }
 });
