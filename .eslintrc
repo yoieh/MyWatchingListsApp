@@ -1,0 +1,40 @@
+{
+  "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true
+  },
+
+  "parser": "babel-eslint",
+
+  "plugins": [
+      "react",
+      "react-native"
+  ],
+  "parserOptions": {
+
+      "ecmaFeatures": {
+          "jsx": true,
+          "experimentalDecorators": true
+      },
+
+      "sourceType": "module"
+  },
+  "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+  ],
+  "rules": {
+      "no-console":"off",
+      "no-const-assign": "warn",
+      "no-this-before-super": "warn",
+      "no-undef": "warn",
+      "no-unreachable": "warn",
+      "no-unused-vars": "warn",
+      "constructor-super": "warn",
+      "valid-typeof": "warn",
+      "react/jsx-uses-vars": [2],
+      "react/prop-types": [0]
+  }
+}
