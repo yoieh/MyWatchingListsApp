@@ -6,7 +6,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "android": "react-native run-android",
-    "git:stag": "git checkout staging",
+    "git:stag": "git checkout staging"
   },
   "dependencies": {
     "native-base": "^2.3.9",
