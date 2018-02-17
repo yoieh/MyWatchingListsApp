@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "target": "esnext",
+        "module": "commonjs",
+        "checkJs": true,
+        "baseUrl": ".",
+        "jsx": "react-native",
+        "paths": {
+            "ontee/*": ["*"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
