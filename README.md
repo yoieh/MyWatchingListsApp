@@ -11,6 +11,3 @@
 [Build_i_Master]:https://build.appcenter.ms/v0.1/apps/50fcda1c-7287-4a83-bb21-13f06d18989d/branches/master/badge
 [Build_i_Stag]:https://build.appcenter.ms/v0.1/apps/50fcda1c-7287-4a83-bb21-13f06d18989d/branches/staging/badge
 [Build_i_Dev]:https://build.appcenter.ms/v0.1/apps/50fcda1c-7287-4a83-bb21-13f06d18989d/branches/development/badge
-
-
-THIS IS A TEST
